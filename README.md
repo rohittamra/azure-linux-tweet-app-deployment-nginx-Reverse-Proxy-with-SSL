@@ -1,4 +1,8 @@
-# Linux Tweet App Deployment with NGINX and Let's Encrypt
+# Azure Linux Tweet App Deployment
+
+An end-to-end Infrastructure as Code (IaC) and DevOps project that automates the deployment of a Dockerized Linux Tweet App on Microsoft Azure.
+
+The project provisions Azure infrastructure using Terraform, configures a Linux VM with Ansible, deploys the application in Docker containers, sets up NGINX as a reverse proxy, and secures the application with Let's Encrypt SSL/TLS certificates. The entire workflow is automated through GitHub Actions CI/CD pipelines.
 
 ## Objective
 Deploy a simple web application (`linux_tweet_app`) in a Docker container on Azure, configure NGINX as a reverse proxy, and use the Let’s Encrypt agent to generate SSL/TLS certificates for your domain.
